@@ -18,7 +18,9 @@ new Vue({
   data: {
     title: 'magforce',
     products: [],
-    loaded: false
+    loaded: false,
+    filter: '',
+    sortby: ''
   },
   computed: {
     total () {

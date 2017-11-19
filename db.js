@@ -7,6 +7,15 @@ const colors = {
 }
 
 const models = {
+  '0132': {
+    model: '0132',
+    desc: '麦格霍斯MagForce正品台湾马盖先0132军迷军规全覆式手机套-黑标',
+    link: 'http://www.magforce.cn/products/0132.html',
+    pic: 'https://img.alicdn.com/bao/uploaded/i3/TB1eb9ASpXXXXXlXpXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg',
+    sku: {
+      def: 312
+    }
+  },
   '0226': {
     model: '0226',
     desc: '麦格霍斯magforce0226腰挂工具包/户外收纳配件包',
@@ -34,6 +43,16 @@ const models = {
       def: 536
     }
   },
+  '0414': {
+    model: '0414',
+    desc: '麦格霍斯Magforce台湾马盖先0414鞍袋包 军迷用品装备户外单肩包战术鞍袋 迷彩',
+    link: 'http://www.magforce.cn/products/0414.html',
+    pic: 'https://img12.360buyimg.com//n0/jfs/t6076/23/8872699122/397791/9dc103a5/598d0b94N18e62228.jpg',
+    sku: {
+      def: 930,
+      micai: 977
+    }
+  },
   '0548': {
     model: '0548',
     desc: 'MAGFORCE麦格霍斯20寸黑甲虫战术双肩包0548轻量户外摄影包黑胶',
@@ -53,6 +72,15 @@ const models = {
       blacklabel: 96
     }
   },
+  '3507': {
+    model: '3507',
+    desc: '麦格霍斯MagForce正品台湾马盖先军迷战术装备3507粘贴式文具袋',
+    link: 'http://www.magforce.cn/products/3507.html',
+    pic: 'https://img.alicdn.com/bao/uploaded/i1/TB1Fg0sHFXXXXaTXFXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg',
+    sku: {
+      def: 117
+    }
+  },
   '3561': {
     model: '3561',
     desc: '麦格霍斯magforce正品台湾马盖先军迷数位模组扩充板3561',
@@ -60,6 +88,24 @@ const models = {
     pic: 'https://img.alicdn.com/imgextra/i2/2215014391/TB2Nz9uaXHFK1JjSZFzXXb23XXa_!!2215014391.jpg_430x430q90.jpg',
     sku: {
       def: 69
+    }
+  },
+  '3570': {
+    model: '3570',
+    desc: 'MAGFORCE麦格霍斯模组黏贴片3570军迷战术molle附件包EDC扩展板小',
+    link: 'http://www.magforce.cn/products/3570.html',
+    pic: 'https://img.alicdn.com/bao/uploaded/i2/TB1fD4BPVXXXXc9XFXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg',
+    sku: {
+      def: 160
+    }
+  },
+  '3567': {
+    model: '3567',
+    desc: '麦格霍斯MagForce正品台湾马盖先军迷用品3567扩充板户外战术装备',
+    link: 'http://www.magforce.cn/products/3567.html',
+    pic: 'https://img.alicdn.com/imgextra/i4/2215014391/TB21F4YbVXXXXbOXXXXXXXXXXXX_!!2215014391.jpg_430x430q90.jpg',
+    sku: {
+      def: 116
     }
   },
   '3568': {
@@ -87,6 +133,15 @@ const models = {
     pic: 'https://img.alicdn.com/bao/uploaded/i3/2215014391/TB1dFToSFXXXXcfXFXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg',
     sku: {
       def: 33
+    }
+  },
+  'mp0222': {
+    model: 'mp0222',
+    desc: '麦格霍斯magforce台湾马盖先2寸滑动式背带mp0222肩带单肩背包带',
+    link: 'http://www.magforce.cn/products/mp0222.html',
+    pic: 'https://img.alicdn.com/bao/uploaded/i2/TB19O4OLpXXXXbRaXXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg',
+    sku: {
+      def: 187
     }
   },
   'mp0227': {
@@ -190,6 +245,26 @@ const orders = [{
   store: '野客户外专营店',
   platform: 'JD',
   modelIds: ['0226', '3568']
+}, {
+  paid: 103,
+  store: '三夫户外专营店',
+  platform: 'JD',
+  modelIds: ['3570']
+}, {
+  paid: 83,
+  store: '三夫箱包旗舰店',
+  platform: 'JD',
+  modelIds: ['3567', 'mp0103']
+}, {
+  paid: 651.64,
+  store: '三夫箱包旗舰店',
+  platform: 'JD',
+  modelIds: ['0132', '3507', 'mp0222', 'mp0102', '0336']
+}, {
+  paid: 422.69,
+  store: '三夫箱包旗舰店',
+  platform: 'JD',
+  modelIds: ['0414,color-micai']
 }]
 
 function parseModelId (modelId) {
