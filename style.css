@@ -1,0 +1,63 @@
+body {
+  background-color: #f3f3f3;
+  font-family: arial;
+}
+
+#app {
+  font-size: .24rem;
+}
+
+.goods {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+  background: #fff;
+  margin: .2rem 0;
+}
+.head {
+  padding: .15rem .2rem;
+}
+.info {
+  background: #f3f3f3;
+  padding: .2rem;
+}
+.thumbnail {
+  width: 2rem; height: 2rem;
+}
+.thumbnail img {
+  width: 100%;
+}
+.title {
+  width: 3.5rem;
+}
+.desc {
+  margin-left: .2rem;
+}
+.category, .model {
+  color: #999;
+}
+.summary {
+  text-align: right;
+  padding: .15rem .2rem;
+}
+.prices {
+  font-size: .28rem;
+}
+.price {
+  text-decoration: line-through;
+  color: #999;
+  text-align: right;
+}
+.paid {
+  font-size: .28rem;
+  text-align: right;
+}
+.count {
+  color: #999;
+  text-align: right;
+}
+.rmb {
+  padding-right: .05rem;
+}
+.total {
+  text-align: right;
+}
