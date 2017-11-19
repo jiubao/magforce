@@ -59,7 +59,12 @@ Vue.component('rmb', {
 
 Vue.component('goods', {
   props: ['goods'],
-  template: '#tpl-goods'
+  template: '#tpl-goods',
+  methods: {
+    gotoDetail () {
+      window.location.href = this.goods.link
+    }
+  }
 });
 
 new Vue({
