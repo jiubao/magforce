@@ -78,7 +78,7 @@
         <div class="title">
           {{title}}
         </div>
-        <div class="total">总支出: <rmb></rmb>{{total}}</div>
+        <statistic :products="products"></statistic>
         <goods v-for="product in products" :goods="product" :key="product.id"></goods>
       </div>
     </div>
@@ -105,6 +105,10 @@
           共{{goods.count}}件商品 合计：<rmb/><span class="paid">{{goods.paid * goods.count}}</span>
         </div>
       </div>
+    </script>
+
+    <script type="text/x-template" id="tpl-statistic">
+      <div class="total">总数: {{count}} 总支出: <rmb></rmb>{{price}}</div>
     </script>
 
     <script type="text/x-template" id="tpl-rmb">
