@@ -71,6 +71,15 @@ const models = {
       def: 479
     }
   },
+  '1422': {
+    model: '1422',
+    desc: 'MAGFORCE麦格霍斯弹夹袋1422手电筒套棍套刀套molle附包',
+    link: 'http://www.magforce.cn/products/1422.html',
+    pic: 'https://img.alicdn.com/bao/uploaded/i4/2215014391/TB1ntioSFXXXXXrXFXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg',
+    sku: {
+      def: 157
+    }
+  },
   '1703': {
     model: '1703',
     desc: '麦格霍斯magforce台湾马盖先军迷户外钥匙扣1703特勤锁扣-蓝紫',
@@ -79,6 +88,15 @@ const models = {
     sku: {
       def: 87,
       blacklabel: 96
+    }
+  },
+  '1819': {
+    model: '1819',
+    desc: '麦格霍斯MagForce正品台湾马盖先1819黑标版增容袋军迷杂物袋',
+    link: 'http://www.magforce.cn/products/1819.html',
+    pic: 'https://img.alicdn.com/bao/uploaded/i2/TB1OdwQMpXXXXbuXpXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg',
+    sku: {
+      def: 399
     }
   },
   '3056': {
@@ -251,6 +269,27 @@ const models = {
     sku: {
       def: 39
     }
+  },
+  'nexttorch-ta15': {
+    model: 'nexttorch-ta15',
+    desc: 'NEXTORCH纳丽德TA15强光远射可调节防水破窗便携户外EDC战术手电',
+    link: '',
+    pic: 'https://gd4.alicdn.com/imgextra/i2/70123038/TB2a004bYYI8KJjy0FaXXbAiVXa_!!70123038.jpg_400x400.jpg',
+    sku: {
+      def: 398
+    }
+  },
+  'leatherman-surge': {
+    model: 'leatherman-surge',
+    desc: 'Leatherman莱泽曼 SURGE海啸 多功能户外求生装备工具折叠钳锯刀',
+    link: '',
+    pic: 'https://gd4.alicdn.com/imgextra/i3/70123038/TB23Oh0b8DH8KJjy1zeXXXjepXa_!!70123038.jpg_400x400.jpg',
+    sku: {
+      def: 644,
+      white: 644,
+      black: 676,
+      blackwhite: 700
+    }
   }
 }
 
@@ -321,6 +360,31 @@ const orders = [{
   store: '生存手册',
   platform: 'TaoBao',
   modelIds: ['3056']
+}, {
+  paid: 117,
+  store: '生存手册',
+  platform: 'TaoBao',
+  modelIds: ['1422']
+}, {
+  paid: 230,
+  store: '生存手册',
+  platform: 'TaoBao',
+  modelIds: ['1819']
+}, {
+  paid: 240,
+  store: '生存手册',
+  platform: 'TaoBao',
+  modelIds: ['nexttorch-ta15']
+}, {
+  paid: 680,
+  store: '生存手册',
+  platform: 'TaoBao',
+  modelIds: ['leatherman-surge,color-blackwhite']
+// }, {
+//   paid: 117,
+//   store: '生存手册',
+//   platform: 'TaoBao',
+//   modelIds: ['手套']
 }]
 
 function parseModelId (modelId) {
