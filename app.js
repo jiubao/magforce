@@ -28,7 +28,7 @@ new Vue({
       this.products.forEach(p => {
         r += p.paid * p.count
       })
-      return r
+      return r.toFixed(2)
     }
   },
   mounted () {

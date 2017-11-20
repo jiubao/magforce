@@ -62,6 +62,15 @@ const models = {
       def: 2180
     }
   },
+  '0828': {
+    model: '0828',
+    desc: '麦格霍斯magforce台湾马盖先0828新款胶黑手拿包户外防水钱包 胶黑色',
+    link: 'http://www.magforce.cn/products/0828.html',
+    pic: 'https://img13.360buyimg.com/n1/jfs/t7027/43/2546196310/140492/bc050478/598d0cbdN3f48ffb7.jpg',
+    sku: {
+      def: 479
+    }
+  },
   '1703': {
     model: '1703',
     desc: '麦格霍斯magforce台湾马盖先军迷户外钥匙扣1703特勤锁扣-蓝紫',
@@ -70,6 +79,15 @@ const models = {
     sku: {
       def: 87,
       blacklabel: 96
+    }
+  },
+  '3056': {
+    model: '3056',
+    desc: 'MAGFORCE麦格霍斯眼镜蛇D环悬降腰带3056军迷战术腰带户外腰带男',
+    link: 'http://www.magforce.cn/products/3056.html',
+    pic: 'https://img.alicdn.com/bao/uploaded/i1/TB1nDEeQVXXXXccXXXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg',
+    sku: {
+      def: 1040
     }
   },
   '3507': {
@@ -135,6 +153,15 @@ const models = {
       def: 33
     }
   },
+  'mp0221': {
+    model: 'mp0221',
+    desc: '麦格霍斯magforce台湾马盖先滑动式背带mp0221肩带单手提拉背包带1.5寸肩带',
+    link: 'http://www.magforce.cn/products/mp0221.html',
+    pic: 'https://img.alicdn.com/bao/uploaded/i2/TB19O4OLpXXXXbRaXXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpghttps://img.alicdn.com/bao/uploaded/i1/TB1B48HLpXXXXXZapXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg',
+    sku: {
+      def: 115
+    }
+  },
   'mp0222': {
     model: 'mp0222',
     desc: '麦格霍斯magforce台湾马盖先2寸滑动式背带mp0222肩带单肩背包带',
@@ -170,58 +197,62 @@ const models = {
     sku: {
       def: 4699
     }
+  },
+  'looyoo-a22': {
+    model: 'looyoo-a22',
+    desc: '路游A22 户外多功能可变容量水壶瓶杯袋套 molle配附件包 腰包 旅行水瓶包 黑色',
+    link: '',
+    pic: 'https://img13.360buyimg.com/n1/jfs/t283/298/1508807263/212679/3a0e8631/543d1478N8baf9f7f.jpg',
+    sku: {
+      def: 78
+    }
+  },
+  'maxgear-3402': {
+    model: 'maxgear-3402',
+    desc: '马盖先 5英寸多功能模组板 杂物袋 配件附包 军迷户外 MOLLE系统 战术黑',
+    link: '',
+    pic: 'https://img14.360buyimg.com/n1/jfs/t2839/223/2879667396/179375/42cf020c/577724faN6253b40f.jpg',
+    sku: {
+      def: 99
+    }
+  },
+  'maxgear-m2': {
+    model: 'maxgear-m2',
+    desc: '马盖先 M2腰包 军迷彩战术户外跑步运动休闲多功能收纳迷你防水防盗尼龙手机腰包杂物包小挂包 意大利迷彩',
+    link: '',
+    pic: 'https://img11.360buyimg.com/n1/jfs/t6232/77/995581900/347089/50139913/594899f9Ne1ca8b4a.jpg',
+    sku: {
+      def: 199
+    }
+  },
+  'maxgear-ex2': {
+    model: 'maxgear-ex2',
+    desc: '马盖先 EX-2多功能扩展包 收纳包杂物袋 户外装备尼龙模组配件附包 军风军迷手拿包手提包 警示橙',
+    link: '',
+    pic: 'https://img13.360buyimg.com/n1/jfs/t3253/192/5192963150/142283/a5c0d83c/586609f8N4af1574a.jpg',
+    sku: {
+      def: 169
+    }
+  },
+  'maxgear-3412': {
+    model: 'maxgear-3412',
+    desc: 'Maxgear/马盖先 EDC防水安全盒 移动硬盘盒 贵重物品防护盒 军迷户外战术装备 黄色',
+    link: '',
+    pic: 'https://img14.360buyimg.com/n1/jfs/t7138/71/2354220626/299062/b0b0b00/59954f47N3f1a5f23.jpg',
+    sku: {
+      def: 99
+    }
+  },
+  'maxgear-3701': {
+    model: 'maxgear-3701',
+    desc: '马盖先 3英寸模组条 背包配件 多功能户外用品 户外工具 战术黑',
+    link: '',
+    pic: 'https://img14.360buyimg.com/n1/jfs/t3214/254/5178559519/30503/c8290c51/58622eb3N718ece07.jpg',
+    sku: {
+      def: 39
+    }
   }
 }
-
-
-// var _belongings = [{
-//   id: '0226',
-//   count: 1,
-//   color: '红黑',
-//   paid: 23,
-//   store: 'MAGFORCE旗舰店',
-//   platform: 'JD'
-// }]
-
-// const _models = {
-//   '0226': {
-//     'def': 384,
-//     'flag': 402
-//   },
-//   '0269': {
-//     'def': 208
-//   },
-//   '0336': {
-//     'def': 536
-//   },
-//   '1703': {
-//     'def': 87,
-//     blacklabel: 96
-//   },
-//   'z01': {
-//     def: 69
-//   },
-//   'mp0102': {
-//     def: 31
-//   },
-//   mp0227: 126,
-//   '3561': 69,
-//   mp0103: 33
-// }
-
-// const models = {
-//   id: '0226', color: '', price: 384
-// }, {
-//   id: '0336', price: 536
-// }, {
-//   id: '0336', price: 536
-// }, {
-//   id: '0336', price: 536
-// }, {
-//   id: '0336', price: 536
-// }, {
-//   id: '0336', price: 536
-// }
 
 var belongings = []
 
@@ -265,6 +296,31 @@ const orders = [{
   store: '三夫箱包旗舰店',
   platform: 'JD',
   modelIds: ['0414,color-micai']
+}, {
+  paid: 396.1,
+  store: '三夫箱包旗舰店',
+  platform: 'JD',
+  modelIds: ['0828', 'mp0221']
+}, {
+  paid: 59,
+  store: '路游户外官方旗舰店',
+  platform: 'JD',
+  modelIds: ['looyoo-a22']
+}, {
+  paid: 50,
+  store: 'MaxGear马盖先旗舰店',
+  platform: 'JD',
+  modelIds: ['maxgear-3402']
+}, {
+  paid: 153,
+  store: 'MaxGear马盖先旗舰店',
+  platform: 'JD',
+  modelIds: ['maxgear-m2', 'maxgear-ex2','maxgear-3412','maxgear-3701']
+}, {
+  paid: 580,
+  store: '生存手册',
+  platform: 'TaoBao',
+  modelIds: ['3056']
 }]
 
 function parseModelId (modelId) {
