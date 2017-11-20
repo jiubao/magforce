@@ -290,7 +290,16 @@ const models = {
       black: 676,
       blackwhite: 700
     }
-  }
+  },
+  'mechanix-hmg55': {
+    model: 'mechanix-hmg55',
+    desc: '美国Mechanix超级技师 户外骑行摄影0.5mm超薄高灵活战术全指手套',
+    link: '',
+    pic: 'https://gd3.alicdn.com/imgextra/i3/70123038/TB2YomvXOGO.eBjSZFEXXcy9VXa_!!70123038.jpg_400x400.jpg',
+    sku: {
+      def: 155
+    }
+  },
 }
 
 var belongings = []
@@ -380,11 +389,11 @@ const orders = [{
   store: '生存手册',
   platform: 'TaoBao',
   modelIds: ['leatherman-surge,color-blackwhite']
-// }, {
-//   paid: 117,
-//   store: '生存手册',
-//   platform: 'TaoBao',
-//   modelIds: ['手套']
+}, {
+  paid: 155,
+  store: '生存手册',
+  platform: 'TaoBao',
+  modelIds: ['mechanix-hmg55']
 }]
 
 function parseModelId (modelId) {
